@@ -1,3 +1,12 @@
+@charset "utf-8";
+
+@font-face
+ { font-family: Quicksand; 
+   src: url('Quicksand-Regular.woff') format('woff'),
+    url('Quicksand-Regular.ttf') format('truetype'); 
+ }
+    
+
 
 
 
@@ -23,11 +32,20 @@ html{
 body{
    color: rgb(91,91,91);
    background-color: ivory;
+   font-family: Verdana,Quicksand, Geneva, sans-serif;
 }
 
 
 
 /* Heading Styles */
+h1,h2{
+   font-family: Quicksand,Verdana Geneva, sans-serif;
+   padding: 5px;
+   border-radius: 8px;
+}
+
+
+
 article#about_tss h1{
    color:white;
    background-color: rgb(222,128,60);
